@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- link = menghubungkan HTML dengan file CSS -->
+</head>
+
+<body>
+    <!-- HEADER = bagian atas website, biasanya ada logo dan menu -->
+    <header class="header">
+
+      <!-- DIV = kotak pembungkus, fungsinya untuk mengelompokkan bagian -->
+      <div class="container1">
+
+        <!-- H1 = tulisan paling besar (judul utama) -->
+        <h1 class="logo">
+          MY
+          <!-- SPAN = untuk tulisan kecil/pendek di dalam kalimat -->
+          <span style="color: white; font-size: 18px">Profile</span>
+        </h1>
+
+        <!-- NAV = menu navigasi (tombol pindah halaman) -->
+        <nav class="nav1">
+          <ul>
+            <!-- LI = item daftar -->
+            <!-- A = link untuk pindah halaman -->
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="tentang.html">Tentang</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+          </ul>
+        </nav>
+
+      </div>
+    </header>
+    <!-- body = tempat semua isi web muncul -->
+
+    <div class="container">
+        <!-- div = kotak pembungkus untuk mengatur isi halaman -->
+
+        <h2 class="deskripsi">Hubungi Kami</h2>
+        <!-- h2 = judul lebih kecil dari h1 -->
+
+        <p class="deskripsi">
+            <!-- p = paragraf / teks panjang -->
+
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos accusamus pariatur 
+            beatae deleniti laboriosam ullam, eaque quaerat tempore sequi repudiandae quod, reprehenderit nihil? 
+            Vitae recusandae, sapiente repellat sit voluptatum veritatis.
+        </p>
+
+        <form class="form-kontak">
+            <!-- form = tempat untuk mengisi data (nama, email, pesan) -->
+
+            <label>Nama</label>
+            <!-- label = judul untuk input -->
+
+            <input type="text" placeholder="Masukkan nama">
+            <!-- input = tempat mengetik
+                 type="text" = untuk teks biasa -->
+
+            <label>Email</label>
+            <input type="email" placeholder="Masukkan email">
+            <!-- type="email" = untuk email, akan memberi peringatan jika tidak benar -->
+
+            <label>Pesan</label>
+            <textarea rows="4" placeholder="Tulis pesan anda..."></textarea>
+            <!-- textarea = kotak besar untuk menulis pesan panjang -->
+
+            <button type="submit" class="btn-kirim">Kirim</button>
+            <!-- button = tombol untuk mengirim form -->
+        </form>
+
+        <a href="beranda.html" class="back-home">← Kembali ke Beranda</a>
+        <!-- a = link kembali ke halaman beranda -->
+
+        <footer>
+            <!-- footer = bagian paling bawah halaman -->
+            © 2025 Azwar Akbar
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentang</title> 
+    <link rel="stylesheet" href="style.css"> 
+    <!-- link = menghubungkan file HTML dengan file CSS -->
+</head>
+
+<body>
+     <!-- HEADER = bagian atas website, biasanya ada logo dan menu -->
+    <header class="header">
+
+      <!-- DIV = kotak pembungkus, fungsinya untuk mengelompokkan bagian -->
+      <div class="container1">
+
+        <!-- H1 = tulisan paling besar (judul utama) -->
+        <h1 class="logo">
+          MY
+          <!-- SPAN = untuk tulisan kecil/pendek di dalam kalimat -->
+          <span style="color: white; font-size: 18px">Profile</span>
+        </h1>
+
+        <!-- NAV = menu navigasi (tombol pindah halaman) -->
+        <nav class="nav1">
+          <ul>
+            <!-- LI = item daftar -->
+            <!-- A = link untuk pindah halaman -->
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="tentang.html">Tentang</a></li>
+            <li><a href="kontak.html">Kontak</a></li>
+          </ul>
+        </nav>
+
+      </div>
+    </header>
+    <!-- body = tempat semua isi halaman ditampilkan -->
+
+    <div class="container">
+        <!-- div = kotak pembungkus untuk mengelompokkan bagian-bagian web -->
+
+        <section class="about-section">
+            <!-- section = mengelompokan bagian" tertentu yg memiliki toipik yg jelas -->
+
+            <div class="about-text">
+                <!-- div = kotak untuk memisahkan tulisan -->
+
+                <p class="deskripsi">
+                    <!-- p = paragraf, untuk teks panjang -->
+
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque ac nisl ut tortor cursus fermentum. 
+                    Nulla euismod velit at magna maximus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint adipisci 
+                    odit hic quis pariatur magni earum molestiae atque! Ipsum voluptas quaerat veniam obcaecati unde vitae 
+                    quibusdam sunt non corporis libero!
+                </p>
+            </div>
+
+            <div class="about-photo">
+                <!-- div = untuk membungkus elemen" lain .cnth wadah untuk foto -->
+
+                <img src="abay.jpg" alt="Foto profil" />
+                <!-- img = untuk menampilkan gambar
+                     src = lokasi file gambar
+                     alt = teks pengganti jika gambar tidak muncul -->
+            </div>
+        </section>
+
+        <h2 class="biodata">Biodata</h2>
+        <!-- h2 = judul sedikit lebih kecil dari h1 -->
+
+        <table class="tabel">
+            <!-- table = tabel data -->
+
+            <tr>
+                <!-- tr = baris tabel -->
+                <th>Nama</th> <!-- th = judul kolom -->
+                <td>Azwar Akbar</td> <!-- td = isi kolom -->
+            </tr>
+
+            <tr>
+                <th>NIM</th>
+                <td>24TF027</td>
+            </tr>
+
+            <tr>
+                <th>Program Studi</th>
+                <td>Teknologi Informasi</td>
+            </tr>
+
+            <tr>
+                <th>Hobi</th>
+                <td>Menggambar</td>
+            </tr>
+        </table>
+
+        <a href="beranda.html">← Kembali ke Beranda</a>
+        <!-- a = link untuk kembali ke halaman sebelumnya -->
+
+        <footer>
+            <!-- footer = bagian paling bawah halaman -->
+            © 2025 Azwar Akbar
+        </footer>
+
+    </div>
+</body>
+</html>
